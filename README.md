@@ -100,6 +100,26 @@ A powerful, user-friendly machine learning platform that enables data analysis a
 
 ## 🚀 Usage
 
+### Quick Start
+The easiest way to start the application is using the provided launch script:
+
+```bash
+# Make the script executable (first time only)
+chmod +x launch_ml_app.sh
+
+# Run the application
+./launch_ml_app.sh
+```
+
+This script will:
+- Check for required dependencies
+- Create a virtual environment if needed
+- Install required packages
+- Launch the application
+
+### Manual Start
+If you prefer to start the application manually:
+
 1. **Start the application**
    ```bash
    streamlit run app.py
