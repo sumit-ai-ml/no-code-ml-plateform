@@ -103,7 +103,7 @@ print_message "The application will open in your default web browser." "$GREEN"
 print_message "Press Ctrl+C to stop the application." "$YELLOW"
 
 # Run the Streamlit app
-streamlit run app.py
+streamlit run app.py --server.enableXsrfProtection false
 
 # Deactivate virtual environment when done
 deactivate
