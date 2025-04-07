@@ -1,173 +1,98 @@
-# 🚀 No-Code ML Platform
+# No-Code ML Platform 🚀
 
-<div align="center">
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.23.1-FF4B4B)](https://streamlit.io/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0.2-orange)](https://scikit-learn.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
-![Streamlit](https://img.shields.io/badge/streamlit-v1.32.0-red.svg)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-v1.4.0-orange.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-
-A powerful, user-friendly machine learning platform that enables data analysis and model training without writing a single line of code.
-
-[Features](#features) • [Installation](#installation) • [Usage](#usage) • [Documentation](#documentation)
-
-</div>
+A user-friendly platform for performing machine learning tasks without writing code. Upload your data, select your task, and let the platform handle the rest!
 
 ## 🌟 Features
 
-### 📊 Data Analysis
-- **File Upload Support**
-  - CSV files (.csv)
-  - Excel files (.xlsx, .xls)
-- **Exploratory Data Analysis (EDA)**
-  - Statistical summaries
-  - Data visualization
-  - Correlation analysis
-- **Categorical Data Analysis**
-  - Value counts
-  - Distribution plots
-  - Frequency analysis
-
-### 🔧 Data Preprocessing
-- **Missing Value Handling**
-  - Mean/Median/Mode imputation
-  - Custom value imputation
-- **Categorical Encoding**
-  - One-Hot Encoding
-  - Label Encoding
-- **Feature Scaling**
-  - StandardScaler
-  - MinMaxScaler
+### 📊 Data Management
+- **Easy Data Upload**: Support for CSV, Excel, and JSON files
+- **Data Preview**: View your data before processing
+- **Data Cleaning**: Automatic handling of missing values and outliers
+- **Feature Selection**: Choose which columns to use in your model
 
 ### 🤖 Machine Learning
-- **Classification Models**
-  - Logistic Regression
-  - Random Forest
-  - Gradient Boosting
-  - AdaBoost
-  - SVM
-  - Decision Tree
-  - K-Nearest Neighbors
-  - Naive Bayes (Gaussian, Multinomial, Bernoulli)
+- **Multiple Tasks**: Classification, Regression, and Clustering
+- **Auto Model Selection**: Automatically find the best model for your data
+- **Hyperparameter Tuning**: Optimize model performance
+- **Model Comparison**: Compare multiple models side by side
 
-- **Regression Models**
-  - Linear Regression
-  - Ridge Regression
-  - Lasso Regression
-  - Elastic Net
-  - Random Forest
-  - Gradient Boosting
-  - AdaBoost
-  - SVM
-  - Decision Tree
-  - K-Nearest Neighbors
+### 📈 Visualization
+- **Interactive Plots**: Explore your data with interactive visualizations
+- **Model Performance**: View ROC curves, confusion matrices, and more
+- **Feature Importance**: Understand what drives your model's predictions
 
-### 📈 Model Evaluation
-- **Validation Methods**
-  - Train-Test Split (80:20)
-  - 5-Fold Cross Validation
-- **Performance Metrics**
-  - Classification: Accuracy, Precision, Recall, F1 Score
-  - Regression: R² Score, MSE, RMSE, MAE
-- **Visualizations**
-  - ROC Curves
-  - Confusion Matrices
-  - Actual vs Predicted Plots
+## 🚀 Quick Start
 
-## 🛠️ Installation
+### Prerequisites
+- Python 3.7 or higher
+- pip (Python package installer)
 
-1. **Clone the repository**
+### Installation
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/sumit-ai-ml/no-code-ml-plateform.git
    cd no-code-ml-plateform
    ```
 
-2. **Create a virtual environment** (recommended)
+2. First-time setup:
    ```bash
-   # For Windows
-   python -m venv venv
-   venv\Scripts\activate
-
-   # For macOS/Linux
-   python3 -m venv venv
-   source venv/bin/activate
+   # Make the setup script executable
+   chmod +x first_time_setup.sh
+   
+   # Run the setup script
+   ./first_time_setup.sh
    ```
+   This will:
+   - Create a virtual environment
+   - Install all required packages
+   - Set up the application
 
-3. **Install dependencies**
+3. Start the application:
    ```bash
-   pip install -r requirements.txt
+   # Run the start script
+   ./start_app.sh
    ```
+   The application will open in your default web browser.
 
-## 🚀 Usage
+### Usage Guide
 
-### Quick Start
-The easiest way to start the application is using the provided launch script:
+1. **Data Upload**
+   - Click "Upload Data" and select your file
+   - Supported formats: CSV, Excel, JSON
+   - Preview your data in the interface
 
-```bash
-# Make the script executable (first time only)
-chmod +x launch_ml_app.sh
+2. **Data Preprocessing**
+   - Select target variable
+   - Choose features to include
+   - Handle missing values
+   - Scale/normalize features if needed
 
-# Run the application
-./launch_ml_app.sh
-```
+3. **Model Training**
+   - Select task type (Classification/Regression)
+   - Choose validation method
+   - Train single model or compare multiple models
+   - View performance metrics and visualizations
 
-This script will:
-- Check for required dependencies
-- Create a virtual environment if needed
-- Install required packages
-- Launch the application
-
-### Manual Start
-If you prefer to start the application manually:
-
-1. **Start the application**
-   ```bash
-   streamlit run app.py
-   ```
-
-2. **Navigate the Interface**
-   - Use the sidebar to access different features
-   - Upload your dataset through the main page
-   - Follow the intuitive workflow for analysis and modeling
-
-3. **Workflow**
-   ```
-   Data Upload → EDA → Preprocessing → Model Training → Evaluation
-   ```
+4. **Model Deployment**
+   - Download trained model
+   - Save model performance metrics
+   - Export visualizations
 
 ## 📚 Documentation
 
-### Data Upload
-- Supported formats: CSV, Excel
-- Maximum file size: 200MB
-- Encoding: UTF-8
-
-### Data Preprocessing
-- Automatic detection of data types
-- Smart handling of missing values
-- One-click encoding of categorical variables
-
-### Model Training
-- Automatic problem type detection
-- Hyperparameter tuning options
-- Model comparison capabilities
-
-### Visualization
-- Interactive plots
-- Downloadable results
-- Customizable parameters
+For detailed documentation, visit our [Wiki](https://github.com/sumit-ai-ml/no-code-ml-plateform/wiki).
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -175,16 +100,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Streamlit for the amazing web framework
 - Scikit-learn for the machine learning algorithms
-- Plotly for interactive visualizations
+- All contributors and users of this platform
 
 ## 📧 Contact
 
-Sumit Pandey - [@sumit-ai-ml](https://github.com/sumit-ai-ml)
-
-Project Link: [https://github.com/sumit-ai-ml/no-code-ml-plateform](https://github.com/sumit-ai-ml/no-code-ml-plateform)
+- GitHub: [@sumit-ai-ml](https://github.com/sumit-ai-ml)
+- Email: sumit.ai.ml@gmail.com
 
 ---
 
-<div align="center">
-Made with ❤️ by Sumit Pandey
-</div> 
+Made with ❤️ by Sumit Pandey 
