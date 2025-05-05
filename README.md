@@ -1,8 +1,4 @@
 # No-Code ML Platform 🚀
-
-[![Python](https://img.shields.io/badge/Python-3.11b%blue)](https://www.python.org/downloads/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.23.1-FF4B4B)](https://streamlit.io/)
-[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0.2-orange)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 A user-friendly platform for performing machine learning tasks without writing code. Upload your data, select your task, and let the platform handle the rest!
