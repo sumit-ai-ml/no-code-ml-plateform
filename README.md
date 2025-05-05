@@ -1,6 +1,6 @@
 # No-Code ML Platform 🚀
 
-[![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/downloads/)
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.23.1-FF4B4B)](https://streamlit.io/)
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0.2-orange)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
